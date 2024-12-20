@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+  <title>Frontend Mentor | Single Price Grid Component</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+    .attribution { font-size: 16px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body style="background-color: hsl(218, 22%, 67%);  font-family: Karla, serif;" class="flex flex-col justify-center items-center lg:h-screen">
+    <main class="lg:w-[40rem] px-[20px] flex flex-col justify-center items-center py-[30px]">
+        <div style="background-color: hsl(204, 43%, 93%);" class="lg:h-[12rem] px-[30px] py-[25px] rounded-t-[6px] lg:w-[40rem] w-[22rem]">
+            <h2 class="text-[24px] pb-[15px] font-normal" style="color: hsl(179, 62%, 43%);">Join our community</h2>
+            <p class="pb-[10px] text-[19px] font-bold" style="color: hsl(71, 73%, 54%);">30-day, hassle-free money back guarantee</p>
+            <p style="color: hsl(218, 22%, 67%);">Gain access to our full library of tutorials along with expert code reviews.
+            Perfect for any developers who are serious about honing their skills.</p>
+        </div>
+        <div class="lg:flex flex-col lg:flex-row">
+            <div style="background-color: hsl(179, 63%, 38%);" class="lg:w-[20rem] px-[30px] py-[25px] lg:rounded-bl-[6px] w-[22rem]">
+                <h3 style="color: hsl(204, 43%, 93%);" class="font-normal text-[20px] pb-[19px]">Monthly Subscription</h3>
+                <p class="text-4xl flex items-center gap-[10px] pb-[15px]" style="color: hsl(204, 43%, 93%);"> $29 <span class="text-[16px]" style="color: hsl(218, 22%, 67%);">per month</span></p>
+                <p class="pb-[35px]" style="color: hsl(218, 22%, 67%);">Full access for less than &dollar;1 a day</p>
+                <p class="text-center h-[2.5rem] flex justify-center items-center rounded-[6px] opacity-80" style="background-color: hsl(71, 73%, 54%); color: hsl(218, 22%, 67%);">Sign Up</p>
+            </div>
+            <div style="background-color: hsl(179, 62%, 43%);" class="lg:w-[20rem] h-[17rem] px-[30px] py-[25px] rounded-br-[6px] w-[22rem] rounded-bl-[6px] lg:rounded-bl-[0px]">
+                <h3 style="color: hsl(204, 43%, 93%);" class="font-normal text-[20px] pb-[15px]">Why Us</h3>
+                <p style="color: hsl(218, 22%, 67%);" class="font-normal text-[19px]">Tutorials by industry experts Peer &amp; expert code review Coding exercises Access to our GitHub repos Community forum Flashcard decks New videos every week</p>
+            </div>
+        </div>
+    </main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Obasi Victory Oguchiluru</a>.
+    </p>
+  </footer>
+</body>
+</html>
